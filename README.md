@@ -27,7 +27,25 @@ Please note if we register a service in angular module (Root Component) then it 
  
  Dependency injection can be done in angular is by using constructor (its in typescript)
  
+ ### Code Flow
+ 
+ 1) In app.component.ts file add a provider in the @Component Directive i.e. 
+	@Component({
+	selector: 'app-root',
+	template: `<h1>Abc Company </h1>
+             <employee-list></employee-list>
+             <employee-details></employee-details>`,
+ ## providers: [EmployeeService]
+ 
+2) Create a Service class  so that it should be like a reusalbe compnent named as `employee.service.ts` 
 
+3) We need to add Injectable to the service and import it from '@angular/core'
+
+4) In 'employee-list.component.ts' import `employee.service.ts` class file, so that the service we have written can be used in this `employee-list.component.ts` class
+
+5) In `employee-list.component.ts` class create a constructor 
+
+6) Create ngOnInit life cycle Hook  (OnInit: Perform component initialization, retrive data. Here we can retrive the data from backend servers. ( Called once the component is initialized)
 -------------------------------------------------------------------------------
 
 # Steps to execute the application
