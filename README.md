@@ -1,7 +1,7 @@
 # AngularServices
 
 
-## Code Explanation: 
+### Code Explanation: 
 # Angular 2 Services and Dependency Injection: 
 Angular Services are the classes which are independent from any particular component. We can share logic or data to across the component. By using Services the code is easy to test, debug and reuse. In simple we can say as, Services are used to  create components and can be shared across the entire application.
 
