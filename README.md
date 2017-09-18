@@ -35,7 +35,7 @@ Please note if we register a service in angular module (Root Component) then it 
 	template: `<h1>Abc Company </h1>
              <employee-list></employee-list>
              <employee-details></employee-details>`,
- ## providers: [EmployeeService]
+			`providers: [EmployeeService]`
  
 2) Create a Service class  so that it should be like a reusalbe compnent named as `employee.service.ts` 
 
