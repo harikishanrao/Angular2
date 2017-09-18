@@ -37,7 +37,7 @@ Please note if we register a service in angular module (Root Component) then it 
              <employee-details></employee-details>`,
 			`providers: [EmployeeService]`
  
-2) Create a Service class  so that it should be like a reusalbe compnent named as `employee.service.ts` 
+2) Create a Service class  so that it should be like a reusalbe component named as `employee.service.ts` 
 
 3) We need to add Injectable to the service and import it from '@angular/core'
 
